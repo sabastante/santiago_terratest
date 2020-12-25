@@ -2,6 +2,8 @@
 
 ## TL;DR
 
+This automation will allow the Engineer to automatically test terraform modules created in the repo.
+
 ## Documentation
 
 Nowadays it is critical to test infrastructure deployments. This might not be as intuitive as first as it is with software developments, but when the team is involved in high intensive agile developments, ensuring quality through automated testing **enables maintaining delivery speed**.
@@ -15,10 +17,6 @@ Terratest:  A swiss army knife for testing infrastructure code.
 GitHub Actions:Create custom software development life cycle (SDLC) workflows directly in your GitHub repository.
 
 ### Usage
-
-This automation will allow the Engineer to automatically test terraform modules created in the repo.
-
-In order to do that, they should:
 
 1) Create a new folder within the S3_sample folder.
 2) Create a new Terratest unittest within the test directory, targeting the module created in the previous task.
