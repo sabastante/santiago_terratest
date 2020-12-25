@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 resource "aws_s3_bucket" "terraform-santiago-terratest" {
   bucket = "terraform-santiago-terratest"
   acl    = "private"
